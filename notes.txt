@@ -16,7 +16,14 @@ Create git allow:
     *.txt
     c,h
 
-Autogenetate h files on save using vscode
+Autogenetate h files on save
+	Todo:
+		function currently ignores prototypes like "int foo(void);"
+		take action on updated function prototypes
+			use var types to match the prototypes
+		 multi-line function definitions
+		C preprocessor directives
+		ignore definitions which are `static`	
 
 
 Future:
